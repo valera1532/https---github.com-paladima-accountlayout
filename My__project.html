@@ -1,0 +1,705 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>My project</title>
+	<link rel="stylesheet" href="./style.css">
+	<link rel="icon" href="./fav.png">
+</head>
+
+<body>
+	<div class="write-text-page">
+		<div class="wrap">
+			<header class="header">
+				<a class="logo" href="#">
+					<img src="./img/logo.svg" alt="logo">
+				</a>
+				<nav class="menu">
+					<ul class="menu__list">
+						<li class="menu__item">
+							<div class="menu__link menu__link-tools" href="#">Tools</div>
+							<ul class="submenu-list">
+								<div class="submenu-list__wrapper">
+									<li class="submenu-list__item">
+										<h3 class="submenu-list__list-title">
+											Text
+										</h3>
+										<ul class="submenu-list__list">
+											<li class="submenu-list__list-item">
+												<a class="link-write-text" href="#working-text">
+													Write text
+												</a>
+											</li>
+											<li class="submenu-list__list-item">
+												<a class="link-translate-text" href="#working-text">
+													Translate text
+												</a>
+											</li>
+											<li class="submenu-list__list-item">
+												<a class="link-summarize" href="#working-text">
+													Summarize
+												</a>
+											</li>
+											<li class="submenu-list__list-item">
+												<a class="link-rewrite" href="#working-text">
+													Rewrite
+												</a>
+											</li>
+										</ul>
+									</li>
+									<li class="submenu-list__item">
+										<h3 class="submenu-list__list-title">
+											Image
+										</h3>
+										<ul class="submenu-list__list submenu-list__list-image">
+											<div>
+												<li class="submenu-list__list-item">
+													<a class="link-text-to-image" href="#image-generation">
+														Text to image
+													</a>
+												</li>
+												<li class="submenu-list__list-item">
+													<a class="link-similar-image" href="#image-generation">
+														Make a similar image
+													</a>
+												</li>
+												<li class="submenu-list__list-item">
+													<a class="link-image-description" href="#image-generation">
+														Image description
+													</a>
+												</li>
+												<li class="submenu-list__list-item">
+													<a class="link-text-recognition" href="#image-generation">
+														Text recognition
+													</a>
+												</li>
+												<li class="submenu-list__list-item">
+													<a class="link-remove-background" href="#image-generation">
+														Remove background
+													</a>
+												</li>
+											</div>
+											<div>
+												<li class="submenu-list__list-item">
+													<a class="link-erase-object" href="#image-generation">
+														Erase an object
+													</a>
+												</li>
+												<li class="submenu-list__list-item">
+													<a class="link-zoom-out" href="#image-generation">
+														Zoom out
+													</a>
+												</li>
+												<li class="submenu-list__list-item">
+													<a class="link-improve-qality" href="#image-generation">
+														Improve the quality
+													</a>
+												</li>
+												<li class="submenu-list__list-item">
+													<a class="link-colorize-photo" href="#image-generation">
+														Colorize Photo
+													</a>
+												</li>
+											</div>
+										</ul>
+									</li>
+									<li class="submenu-list__item">
+										<h3 class="submenu-list__list-title">
+											Video
+										</h3>
+										<ul class="submenu-list__list">
+											<li class="submenu-list__list-item">
+												<a href="#">
+													Erase an object
+												</a>
+											</li>
+											<li class="submenu-list__list-item">
+												<a href="#">
+													Zoom out
+												</a>
+											</li>
+											<li class="submenu-list__list-item">
+												<a href="#">
+													Improve the quality
+												</a>
+											</li>
+											<li class="submenu-list__list-item">
+												<a href="#">
+													Colorize Photo
+												</a>
+											</li>
+										</ul>
+									</li>
+									<li class="submenu-list__item">
+										<h3 class="submenu-list__list-title">
+											Voice
+										</h3>
+										<ul class="submenu-list__list">
+											<li class="submenu-list__list-item">
+												<a href="#">
+													Erase an object
+												</a>
+											</li>
+											<li class="submenu-list__list-item">
+												<a href="#">
+													Zoom out
+												</a>
+											</li>
+											<li class="submenu-list__list-item">
+												<a href="#">
+													Improve the quality
+												</a>
+											</li>
+											<li class="submenu-list__list-item">
+												<a href="#">
+													Colorize Photo
+												</a>
+											</li>
+										</ul>
+									</li>
+								</div>
+							</ul>
+						</li>
+						<li class="menu__item">
+							<a href="#">About us</a>
+						</li>
+						<li class="menu__item">
+							<a href="#">Products</a>
+						</li>
+						<li class="menu__item">
+							<a href="#">API</a>
+						</li>
+						<li class="menu__item">
+							<a href="#">Tariff plans</a>
+						</li>
+						<li class="menu__item">
+							<a href="#">News</a>
+						</li>
+					</ul>
+				</nav>
+				<div class="menu-burger">
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+				<div class="users-buttons">
+					<button class="sign-up">
+						Sign Up
+					</button>
+					<span class="delimiter">
+						/
+					</span>
+					<button class="login">
+						Login
+					</button>
+				</div>
+			</header>
+
+			<div class="wrapper-section">
+				<div class="wrapper-section__inner">
+					<div class="wrapper-menu">
+						<ul class="wrapper-menu__list">
+							<li class="wrapper-menu__item wrapper-menu__item--active"><a href="./history.html">Posts</a>
+							</li>
+
+							<li class="wrapper-menu__item"><a href="./connections.html">Projects</a></li>
+							<li class="wrapper-menu__item"><a href="./api.html">Results</a></li>
+
+							<li class="wrapper-menu__delitel"></li>
+							<li class="wrapper-menu__item  display__flex white ">
+								<a href="./settings.html">Settings</a>
+								<svg class="wrapper-menu__item-settings" width="14" height="14" viewBox="0 0 14 14"
+									fill="none" xmlns="http://www.w3.org/2000/svg">
+									<g clip-path="url(#clip0_2801_832)">
+										<path
+											d="M10.5274 5.7875L6.00077 10.351C5.94688 10.4052 5.8885 10.4435 5.82563 10.4659C5.76276 10.4886 5.6954 10.5 5.62355 10.5C5.5517 10.5 5.48434 10.4886 5.42147 10.4659C5.3586 10.4435 5.30022 10.4052 5.24633 10.351L0.706189 5.7875C0.580448 5.66111 0.517578 5.50313 0.517578 5.31354C0.517578 5.12396 0.584939 4.96146 0.719661 4.82604C0.854383 4.69063 1.01156 4.62292 1.19119 4.62292C1.37082 4.62292 1.52799 4.69063 1.66272 4.82604L5.62355 8.80729L9.58438 4.82604C9.71012 4.69965 9.86497 4.63646 10.0489 4.63646C10.2332 4.63646 10.3927 4.70417 10.5274 4.83958C10.6622 4.975 10.7295 5.13299 10.7295 5.31354C10.7295 5.4941 10.6622 5.65208 10.5274 5.7875Z"
+											fill="#1B193F" />
+									</g>
+									<defs>
+										<clipPath id="clip0_2801_832">
+											<rect width="13" height="12.9651" fill="#1B193F"
+												transform="translate(0.517578 13.5) rotate(-90)" />
+										</clipPath>
+									</defs>
+								</svg>
+								<div class="wrapper-menu__pop">
+									<ul>
+										<li class="href__animate"><a href="/ProfileSettings.html">Profile</a></li>
+										<li class="href__animate"><a href="/connections.html">Connections</a></li>
+										<li class="href__animate"><a href="/notification.html">Notification</a></li>
+										<li class="href__animate"><a href="/api.html">API Key</a></li>
+										<li class="href__animate"><a href="/storage.html">Storage</a></li>
+										<li class="href__animate"><a href="/payments.html">Payments</a></li>
+										<li class="href__animate"><a href="">Privacy</a></li>
+										<li class="href__animate"><a href="">Collaborators</a></li>
+									</ul>
+								</div>
+							</li>
+						</ul>
+					</div>
+					<div class="myproject">
+						<div class="myproject__title">
+							<span>My project</span>
+							<svg width="24" height="25" viewBox="0 0 24 25" fill="none"
+								xmlns="http://www.w3.org/2000/svg">
+								<path
+									d="M5 19.5H6.4L15.025 10.875L13.625 9.475L5 18.1V19.5ZM19.3 9.425L15.05 5.225L16.45 3.825C16.8333 3.44167 17.3043 3.25 17.863 3.25C18.4217 3.25 18.8923 3.44167 19.275 3.825L20.675 5.225C21.0583 5.60833 21.2583 6.071 21.275 6.613C21.2917 7.155 21.1083 7.61733 20.725 8L19.3 9.425ZM4 21.5C3.71667 21.5 3.479 21.404 3.287 21.212C3.095 21.02 2.99934 20.7827 3 20.5V17.675C3 17.5417 3.025 17.4123 3.075 17.287C3.125 17.1617 3.2 17.0493 3.3 16.95L13.6 6.65L17.85 10.9L7.55 21.2C7.45 21.3 7.33767 21.375 7.213 21.425C7.08834 21.475 6.959 21.5 6.825 21.5H4ZM14.325 10.175L13.625 9.475L15.025 10.875L14.325 10.175Z"
+									fill="#686F7B" />
+							</svg>
+						</div>
+						<div class="myproject__links">
+							<div class="myproject__link myproject__link-active">
+								<a href="">Posts</a>
+							</div>
+							<div class="myproject__link">
+								<a href="">Connections</a>
+							</div>
+							<div class="myproject__link">
+								<a href="">News feeds</a>
+							</div>
+							<div class="myproject__link">
+								<a href="">Results</a>
+							</div>
+							<div class="myproject__link">
+								<a href="">Collaborators</a>
+							</div>
+						</div>
+						<div class="myproject__table">
+							<div class="ui-table-scrolling">
+								<table class="ui-table">
+									<thead class="ui-table__head">
+										<tr class="ui-table__row">
+											<th class="ui-table__cell">Name</th>
+											<th class="ui-table__cell">Status</th>
+											<th class="ui-table__cell">Date</th>
+											<th class="ui-table__cell">Time</th>
+											<th class="ui-table__cell ">
+												Connections
+											</th>
+											<th class="ui-table__cell ui-table__cell--min ui-table__cell--center"></th>
+										</tr>
+									</thead>
+									<tbody class="ui-table__body">
+										<tr class="ui-table__row">
+											<td class="ui-table__cell name__post">
+												<p>Название поста</p>
+											</td>
+
+											<td class="ui-table__cell display__flex1">
+												<p>
+													<svg width="17" height="18" viewBox="0 0 17 18" fill="none"
+														xmlns="http://www.w3.org/2000/svg">
+														<path
+															d="M7.47482 10.8632L5.80665 9.19323C5.76303 9.14902 5.71108 9.11393 5.65381 9.08998C5.59653 9.06603 5.53508 9.05369 5.47302 9.05369C5.41095 9.05369 5.3495 9.06603 5.29223 9.08998C5.23496 9.11393 5.183 9.14902 5.13938 9.19323C5.09523 9.2369 5.06017 9.2889 5.03625 9.34624C5.01232 9.40357 5 9.46509 5 9.52722C5 9.58936 5.01232 9.65088 5.03625 9.70821C5.06017 9.76554 5.09523 9.81755 5.13938 9.86122L7.13642 11.8604C7.3223 12.0465 7.62257 12.0465 7.80845 11.8604L12.8606 6.80753C12.9048 6.76386 12.9398 6.71185 12.9638 6.65452C12.9877 6.59718 13 6.53567 13 6.47353C13 6.4114 12.9877 6.34988 12.9638 6.29255C12.9398 6.23521 12.9048 6.1832 12.8606 6.13953C12.817 6.09533 12.765 6.06024 12.7078 6.03629C12.6505 6.01233 12.5891 6 12.527 6C12.4649 6 12.4035 6.01233 12.3462 6.03629C12.2889 6.06024 12.237 6.09533 12.1934 6.13953L7.47482 10.8632Z"
+															fill="#1AE116" />
+														<rect x="0.5" y="1" width="16" height="16" rx="8"
+															stroke="#39FF65" />
+													</svg>
+													<span>Done</span>
+
+												</p>
+											</td>
+
+											<td class="ui-table__cell">
+												<p>01.01.2023</p>
+											</td>
+
+											<td class="ui-table__cell">
+												<p>12:24</p>
+											</td>
+
+											<td class="ui-table__cell  ">
+												<img src="/img/inst-grey.svg" alt="">
+											</td>
+
+											<td class="ui-table__cell ">
+												<div class="ui-table__item--action">
+													<a class="display__flex1" href="javascript:void(0)">
+														<svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+															xmlns="http://www.w3.org/2000/svg">
+															<path
+																d="M5 19H6.4L15.025 10.375L13.625 8.975L5 17.6V19ZM19.3 8.925L15.05 4.725L16.45 3.325C16.8333 2.94167 17.3043 2.75 17.863 2.75C18.4217 2.75 18.8923 2.94167 19.275 3.325L20.675 4.725C21.0583 5.10833 21.2583 5.571 21.275 6.113C21.2917 6.655 21.1083 7.11733 20.725 7.5L19.3 8.925ZM4 21C3.71667 21 3.479 20.904 3.287 20.712C3.095 20.52 2.99934 20.2827 3 20V17.175C3 17.0417 3.025 16.9123 3.075 16.787C3.125 16.6617 3.2 16.5493 3.3 16.45L13.6 6.15L17.85 10.4L7.55 20.7C7.45 20.8 7.33767 20.875 7.213 20.925C7.08834 20.975 6.959 21 6.825 21H4ZM14.325 9.675L13.625 8.975L15.025 10.375L14.325 9.675Z"
+																fill="#686F7B" />
+														</svg>
+														<svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+															xmlns="http://www.w3.org/2000/svg">
+															<path
+																d="M20.5 6H3.5M18.833 8.5L18.373 15.4C18.196 18.054 18.108 19.381 17.243 20.19C16.378 21 15.047 21 12.387 21H11.613C8.953 21 7.622 21 6.757 20.19C5.892 19.381 5.803 18.054 5.627 15.4L5.167 8.5M9.5 11L10 16M14.5 11L14 16"
+																stroke="#686F7B" stroke-width="1.5"
+																stroke-linecap="round" />
+															<path
+																d="M6.5 6H6.61C7.01245 5.98972 7.40242 5.85822 7.72892 5.62271C8.05543 5.3872 8.30325 5.05864 8.44 4.68L8.474 4.577L8.571 4.286C8.654 4.037 8.696 3.913 8.751 3.807C8.85921 3.59939 9.01451 3.41999 9.20448 3.28316C9.39444 3.14633 9.6138 3.05586 9.845 3.019C9.962 3 10.093 3 10.355 3H13.645C13.907 3 14.038 3 14.155 3.019C14.3862 3.05586 14.6056 3.14633 14.7955 3.28316C14.9855 3.41999 15.1408 3.59939 15.249 3.807C15.304 3.913 15.346 4.037 15.429 4.286L15.526 4.577C15.6527 4.99827 15.9148 5.36601 16.2717 5.62326C16.6285 5.88051 17.0603 6.01293 17.5 6"
+																stroke="#686F7B" stroke-width="1.5" />
+														</svg>
+
+													</a>
+												</div>
+											</td>
+										</tr>
+										<tr class="ui-table__row">
+											<td class="ui-table__cell name__post">
+												<p>Название поста</p>
+											</td>
+
+											<td class="ui-table__cell display__flex1">
+												<p>
+													<svg width="17" height="18" viewBox="0 0 17 18" fill="none"
+														xmlns="http://www.w3.org/2000/svg">
+														<path
+															d="M7.47482 10.8632L5.80665 9.19323C5.76303 9.14902 5.71108 9.11393 5.65381 9.08998C5.59653 9.06603 5.53508 9.05369 5.47302 9.05369C5.41095 9.05369 5.3495 9.06603 5.29223 9.08998C5.23496 9.11393 5.183 9.14902 5.13938 9.19323C5.09523 9.2369 5.06017 9.2889 5.03625 9.34624C5.01232 9.40357 5 9.46509 5 9.52722C5 9.58936 5.01232 9.65088 5.03625 9.70821C5.06017 9.76554 5.09523 9.81755 5.13938 9.86122L7.13642 11.8604C7.3223 12.0465 7.62257 12.0465 7.80845 11.8604L12.8606 6.80753C12.9048 6.76386 12.9398 6.71185 12.9638 6.65452C12.9877 6.59718 13 6.53567 13 6.47353C13 6.4114 12.9877 6.34988 12.9638 6.29255C12.9398 6.23521 12.9048 6.1832 12.8606 6.13953C12.817 6.09533 12.765 6.06024 12.7078 6.03629C12.6505 6.01233 12.5891 6 12.527 6C12.4649 6 12.4035 6.01233 12.3462 6.03629C12.2889 6.06024 12.237 6.09533 12.1934 6.13953L7.47482 10.8632Z"
+															fill="#1AE116" />
+														<rect x="0.5" y="1" width="16" height="16" rx="8"
+															stroke="#39FF65" />
+													</svg>
+													<span>Done</span>
+
+												</p>
+											</td>
+
+											<td class="ui-table__cell">
+												<p>01.01.2023</p>
+											</td>
+
+											<td class="ui-table__cell">
+												<p>12:24</p>
+											</td>
+
+											<td class="ui-table__cell ">
+												<img src="/img/inst-grey.svg" alt="">
+											</td>
+
+											<td class="ui-table__cell ">
+												<div class="ui-table__item--action">
+													<a class="display__flex1" href="javascript:void(0)">
+														<svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+															xmlns="http://www.w3.org/2000/svg">
+															<path
+																d="M5 19H6.4L15.025 10.375L13.625 8.975L5 17.6V19ZM19.3 8.925L15.05 4.725L16.45 3.325C16.8333 2.94167 17.3043 2.75 17.863 2.75C18.4217 2.75 18.8923 2.94167 19.275 3.325L20.675 4.725C21.0583 5.10833 21.2583 5.571 21.275 6.113C21.2917 6.655 21.1083 7.11733 20.725 7.5L19.3 8.925ZM4 21C3.71667 21 3.479 20.904 3.287 20.712C3.095 20.52 2.99934 20.2827 3 20V17.175C3 17.0417 3.025 16.9123 3.075 16.787C3.125 16.6617 3.2 16.5493 3.3 16.45L13.6 6.15L17.85 10.4L7.55 20.7C7.45 20.8 7.33767 20.875 7.213 20.925C7.08834 20.975 6.959 21 6.825 21H4ZM14.325 9.675L13.625 8.975L15.025 10.375L14.325 9.675Z"
+																fill="#686F7B" />
+														</svg>
+														<svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+															xmlns="http://www.w3.org/2000/svg">
+															<path
+																d="M20.5 6H3.5M18.833 8.5L18.373 15.4C18.196 18.054 18.108 19.381 17.243 20.19C16.378 21 15.047 21 12.387 21H11.613C8.953 21 7.622 21 6.757 20.19C5.892 19.381 5.803 18.054 5.627 15.4L5.167 8.5M9.5 11L10 16M14.5 11L14 16"
+																stroke="#686F7B" stroke-width="1.5"
+																stroke-linecap="round" />
+															<path
+																d="M6.5 6H6.61C7.01245 5.98972 7.40242 5.85822 7.72892 5.62271C8.05543 5.3872 8.30325 5.05864 8.44 4.68L8.474 4.577L8.571 4.286C8.654 4.037 8.696 3.913 8.751 3.807C8.85921 3.59939 9.01451 3.41999 9.20448 3.28316C9.39444 3.14633 9.6138 3.05586 9.845 3.019C9.962 3 10.093 3 10.355 3H13.645C13.907 3 14.038 3 14.155 3.019C14.3862 3.05586 14.6056 3.14633 14.7955 3.28316C14.9855 3.41999 15.1408 3.59939 15.249 3.807C15.304 3.913 15.346 4.037 15.429 4.286L15.526 4.577C15.6527 4.99827 15.9148 5.36601 16.2717 5.62326C16.6285 5.88051 17.0603 6.01293 17.5 6"
+																stroke="#686F7B" stroke-width="1.5" />
+														</svg>
+
+													</a>
+												</div>
+											</td>
+										</tr>
+										<tr class="ui-table__row">
+											<td class="ui-table__cell name__post">
+												<p>Название поста</p>
+											</td>
+
+											<td class="ui-table__cell display__flex1">
+												<p>
+													<svg width="17" height="18" viewBox="0 0 17 18" fill="none"
+														xmlns="http://www.w3.org/2000/svg">
+														<path
+															d="M7.47482 10.8632L5.80665 9.19323C5.76303 9.14902 5.71108 9.11393 5.65381 9.08998C5.59653 9.06603 5.53508 9.05369 5.47302 9.05369C5.41095 9.05369 5.3495 9.06603 5.29223 9.08998C5.23496 9.11393 5.183 9.14902 5.13938 9.19323C5.09523 9.2369 5.06017 9.2889 5.03625 9.34624C5.01232 9.40357 5 9.46509 5 9.52722C5 9.58936 5.01232 9.65088 5.03625 9.70821C5.06017 9.76554 5.09523 9.81755 5.13938 9.86122L7.13642 11.8604C7.3223 12.0465 7.62257 12.0465 7.80845 11.8604L12.8606 6.80753C12.9048 6.76386 12.9398 6.71185 12.9638 6.65452C12.9877 6.59718 13 6.53567 13 6.47353C13 6.4114 12.9877 6.34988 12.9638 6.29255C12.9398 6.23521 12.9048 6.1832 12.8606 6.13953C12.817 6.09533 12.765 6.06024 12.7078 6.03629C12.6505 6.01233 12.5891 6 12.527 6C12.4649 6 12.4035 6.01233 12.3462 6.03629C12.2889 6.06024 12.237 6.09533 12.1934 6.13953L7.47482 10.8632Z"
+															fill="#1AE116" />
+														<rect x="0.5" y="1" width="16" height="16" rx="8"
+															stroke="#39FF65" />
+													</svg>
+													<span>Done</span>
+
+												</p>
+											</td>
+
+											<td class="ui-table__cell">
+												<p>01.01.2023</p>
+											</td>
+
+											<td class="ui-table__cell">
+												<p>12:24</p>
+											</td>
+
+											<td class="ui-table__cell display__flex1 ">
+												<img src="/img/inst-grey.svg" alt="">
+												<img src="/img/tg-grey.svg" alt=""><img src="/img/tg-grey.svg"
+													alt=""><img src="/img/tg-grey.svg" alt="">
+											</td>
+
+											<td class="ui-table__cell ">
+												<div class="ui-table__item--action">
+													<a class="display__flex1" href="javascript:void(0)">
+														<svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+															xmlns="http://www.w3.org/2000/svg">
+															<path
+																d="M5 19H6.4L15.025 10.375L13.625 8.975L5 17.6V19ZM19.3 8.925L15.05 4.725L16.45 3.325C16.8333 2.94167 17.3043 2.75 17.863 2.75C18.4217 2.75 18.8923 2.94167 19.275 3.325L20.675 4.725C21.0583 5.10833 21.2583 5.571 21.275 6.113C21.2917 6.655 21.1083 7.11733 20.725 7.5L19.3 8.925ZM4 21C3.71667 21 3.479 20.904 3.287 20.712C3.095 20.52 2.99934 20.2827 3 20V17.175C3 17.0417 3.025 16.9123 3.075 16.787C3.125 16.6617 3.2 16.5493 3.3 16.45L13.6 6.15L17.85 10.4L7.55 20.7C7.45 20.8 7.33767 20.875 7.213 20.925C7.08834 20.975 6.959 21 6.825 21H4ZM14.325 9.675L13.625 8.975L15.025 10.375L14.325 9.675Z"
+																fill="#686F7B" />
+														</svg>
+														<svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+															xmlns="http://www.w3.org/2000/svg">
+															<path
+																d="M20.5 6H3.5M18.833 8.5L18.373 15.4C18.196 18.054 18.108 19.381 17.243 20.19C16.378 21 15.047 21 12.387 21H11.613C8.953 21 7.622 21 6.757 20.19C5.892 19.381 5.803 18.054 5.627 15.4L5.167 8.5M9.5 11L10 16M14.5 11L14 16"
+																stroke="#686F7B" stroke-width="1.5"
+																stroke-linecap="round" />
+															<path
+																d="M6.5 6H6.61C7.01245 5.98972 7.40242 5.85822 7.72892 5.62271C8.05543 5.3872 8.30325 5.05864 8.44 4.68L8.474 4.577L8.571 4.286C8.654 4.037 8.696 3.913 8.751 3.807C8.85921 3.59939 9.01451 3.41999 9.20448 3.28316C9.39444 3.14633 9.6138 3.05586 9.845 3.019C9.962 3 10.093 3 10.355 3H13.645C13.907 3 14.038 3 14.155 3.019C14.3862 3.05586 14.6056 3.14633 14.7955 3.28316C14.9855 3.41999 15.1408 3.59939 15.249 3.807C15.304 3.913 15.346 4.037 15.429 4.286L15.526 4.577C15.6527 4.99827 15.9148 5.36601 16.2717 5.62326C16.6285 5.88051 17.0603 6.01293 17.5 6"
+																stroke="#686F7B" stroke-width="1.5" />
+														</svg>
+
+													</a>
+												</div>
+											</td>
+										</tr>
+
+									</tbody>
+								</table>
+							</div>
+						</div>
+
+					</div>
+
+				</div>
+
+			</div>
+		</div>
+		<footer class="footer">
+			<div class="wrap">
+				<div class="footer-logo">
+					<img src="./img/logo-footer.svg" alt="footer logo">
+				</div>
+				<div class="footer__menu">
+					<ul class="footer__menu-list footer__menu-list-wrap">
+						<h3 class="footer__menu-title">
+							Tools
+						</h3>
+						<div class="footer__menu-wrap-inner">
+							<div class="footer__menu-wrap">
+								<li class="footer__menu-item">
+									<a class="footer__menu-link link-write-text" href="#working-text">
+										Write text
+									</a>
+								</li>
+								<li class="footer__menu-item">
+									<a class="footer__menu-link link-translate-text" href="#working-text">
+										Translate text
+									</a>
+								</li>
+								<li class="footer__menu-item">
+									<a class="footer__menu-link link-summarize" href="#working-text">
+										Summarize
+									</a>
+								</li>
+								<li class="footer__menu-item">
+									<a class="footer__menu-link link-rewrite" href="#working-text">
+										Rewrite
+									</a>
+								</li>
+								<li class="footer__menu-item">
+									<a class="footer__menu-link link-text-to-image" href="#image-generation">
+										Text to image
+									</a>
+								</li>
+								<li class="footer__menu-item">
+									<a class="footer__menu-link link-similar-image" href="#image-generation">
+										Make a similar image
+									</a>
+								</li>
+								<li class="footer__menu-item">
+									<a class="footer__menu-link link-image-description" href="#image-generation">
+										Image description
+									</a>
+								</li>
+							</div>
+							<div class="footer__menu-wrap">
+								<li class="footer__menu-item">
+									<a class="footer__menu-link link-text-recognition" href="#image-generation">
+										Text recognition
+									</a>
+								</li>
+								<li class="footer__menu-item">
+									<a class="footer__menu-link link-remove-background" href="#image-generation">
+										Remove background
+									</a>
+								</li>
+								<li class="footer__menu-item">
+									<a class="footer__menu-link link-erase-object" href="#image-generation">
+										Erase an object
+									</a>
+								</li>
+								<li class="footer__menu-item">
+									<a class="footer__menu-link link-zoom-out" href="#image-generation">
+										Zoom out
+									</a>
+								</li>
+								<li class="footer__menu-item">
+									<a class="footer__menu-link link-improve-qality" href="#image-generation">
+										Improve the quality
+									</a>
+								</li>
+								<li class="footer__menu-item">
+									<a class="footer__menu-link link-colorize-photo" href="#image-generation">
+										Colorize Photo
+									</a>
+								</li>
+								<li class="footer__menu-item">
+									<a class="footer__menu-link" href="#">
+										Removing recording
+									</a>
+								</li>
+							</div>
+							<div class="footer__menu-wrap">
+								<li class="footer__menu-item">
+									<a class="footer__menu-link" href="#">
+										Text dubbing
+									</a>
+								</li>
+								<li class="footer__menu-item">
+									<a class="footer__menu-link" href="#">
+										Music by text description
+									</a>
+								</li>
+								<li class="footer__menu-item">
+									<a class="footer__menu-link" href="#">
+										Audio to text
+									</a>
+								</li>
+								<li class="footer__menu-item">
+									<a class="footer__menu-link" href="#">
+										Removing the background of a video
+									</a>
+								</li>
+								<li class="footer__menu-item">
+									<a class="footer__menu-link" href="#">
+										The text in the video
+									</a>
+								</li>
+								<li class="footer__menu-item">
+									<a class="footer__menu-link" href="#">
+										The image in the video
+									</a>
+								</li>
+								<li class="footer__menu-item">
+									<a class="footer__menu-link" href="#">
+										Video to text
+									</a>
+								</li>
+							</div>
+						</div>
+					</ul>
+					<ul class="footer__menu-list">
+						<h3 class="footer__menu-title">
+							Products
+						</h3>
+						<li class="footer__menu-item">
+							<a class="footer__menu-link" href="#">
+								Neuron
+							</a>
+						</li>
+						<li class="footer__menu-item">
+							<a class="footer__menu-link" href="#">
+								SMM manager
+							</a>
+						</li>
+					</ul>
+					<ul class="footer__menu-list">
+						<h3 class="footer__menu-title">
+							Community
+						</h3>
+						<li class="footer__menu-item">
+							<a class="footer__menu-link" href="#">
+								Telegram
+							</a>
+						</li>
+						<li class="footer__menu-item">
+							<a class="footer__menu-link" href="#">
+								Instagram
+							</a>
+						</li>
+						<li class="footer__menu-item">
+							<a class="footer__menu-link" href="#">
+								LN
+							</a>
+						</li>
+					</ul>
+					<ul class="footer__menu-list">
+						<h3 class="footer__menu-title">
+							About us
+						</h3>
+						<li class="footer__menu-item">
+							<a class="footer__menu-link" href="#">
+								Neuron Inc
+							</a>
+						</li>
+						<li class="footer__menu-item">
+							<a class="footer__menu-link" href="#">
+								Contacts
+							</a>
+						</li>
+						<li class="footer__menu-item">
+							<a class="footer__menu-link" href="#">
+								FAQ
+							</a>
+						</li>
+					</ul>
+					<ul class="footer__menu-list">
+						<h3 class="footer__menu-title">
+							API
+						</h3>
+						<li class="footer__menu-item">
+							<a class="footer__menu-link" href="#">
+								API documentation
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div class="footer__bottom">
+					<ul class="footer__socials">
+						<li class="footer__socials-item">
+							<a href="#">
+								<img src="./img/twitter.svg" alt="twitter">
+							</a>
+						</li>
+						<li class="footer__socials-item">
+							<a href="#">
+								<img src="./img/linkedin.svg" alt="linkedin">
+							</a>
+						</li>
+						<li class="footer__socials-item">
+							<a href="#">
+								<img src="./img/facebook.svg" alt="facebook">
+							</a>
+						</li>
+					</ul>
+					<p class="footer__copy">
+						© 2023 Neuron Inc., All rights reserved
+					</p>
+					<a class="footer__privacy" href="#">
+						Privacy policy
+					</a>
+				</div>
+			</div>
+		</footer>
+	</div>
+
+
+
+
+
+
+	<script src="./js/scripts.js" type="module"></script>
+	<script>
+
+	</script>
+	<!-- tagify -->
+	<script src="./js/tagify.js"></script>
+	<link href="./css/tagify.css" rel="stylesheet" type="text/css" />
+
+	<!--sl--scrollable-->
+	<script src="./js/sl.scrollable.js"></script>
+
+	<script rel="preconnect" src="https://cdn.tailwindcss.com"></script>
+</body>
+
+</html>

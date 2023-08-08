@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>My project</title>
+	<link rel="stylesheet" href="./style.css">
+	<link rel="icon" href="./fav.png">
+</head>
+
+<body>
+	<div class="write-text-page">
+		<div class="wrap">
+			<header class="header">
+				<a class="logo" href="#">
+					<img src="./img/logo.svg" alt="logo">
+				</a>
+				<nav class="menu">
+					<ul class="menu__list">
+						<li class="menu__item">
+							<div class="menu__link menu__link-tools" href="#">Tools</div>
+							<ul class="submenu-list">
+								<div class="submenu-list__wrapper">
+									<li class="submenu-list__item">
+										<h3 class="submenu-list__list-title">
+											Text
+										</h3>
+										<ul class="submenu-list__list">
+											<li class="submenu-list__list-item">
+												<a class="link-write-text" href="#working-text">
+													Write text
+												</a>
+											</li>
+											<li class="submenu-list__list-item">
+												<a class="link-translate-text" href="#working-text">
+													Translate text
+												</a>
+											</li>
+											<li class="submenu-list__list-item">
+												<a class="link-summarize" href="#working-text">
+													Summarize
+												</a>
+											</li>
+											<li class="submenu-list__list-item">
+												<a class="link-rewrite" href="#working-text">
+													Rewrite
+												</a>
+											</li>
+										</ul>
+									</li>
+									<li class="submenu-list__item">
+										<h3 class="submenu-list__list-title">
+											Image
+										</h3>
+										<ul class="submenu-list__list submenu-list__list-image">
+											<div>
+												<li class="submenu-list__list-item">
+													<a class="link-text-to-image" href="#image-generation">
+														Text to image
+													</a>
+												</li>
+												<li class="submenu-list__list-item">
+													<a class="link-similar-image" href="#image-generation">
+														Make a similar image
+													</a>
+												</li>
+												<li class="submenu-list__list-item">
+													<a class="link-image-description" href="#image-generation">
+														Image description
+													</a>
+												</li>
+												<li class="submenu-list__list-item">
+													<a class="link-text-recognition" href="#image-generation">
+														Text recognition
+													</a>
+												</li>
+												<li class="submenu-list__list-item">
+													<a class="link-remove-background" href="#image-generation">
+														Remove background
+													</a>
+												</li>
+											</div>
+											<div>
+												<li class="submenu-list__list-item">
+													<a class="link-erase-object" href="#image-generation">
+														Erase an object
+													</a>
+												</li>
+												<li class="submenu-list__list-item">
+													<a class="link-zoom-out" href="#image-generation">
+														Zoom out
+													</a>
+												</li>
+												<li class="submenu-list__list-item">
+													<a class="link-improve-qality" href="#image-generation">
+														Improve the quality
+													</a>
+												</li>
+												<li class="submenu-list__list-item">
+													<a class="link-colorize-photo" href="#image-generation">
+														Colorize Photo
+													</a>
+												</li>
+											</div>
+										</ul>
+									</li>
+									<li class="submenu-list__item">
+										<h3 class="submenu-list__list-title">
+											Video
+										</h3>
+										<ul class="submenu-list__list">
+											<li class="submenu-list__list-item">
+												<a href="#">
+													Erase an object
+												</a>
+											</li>
+											<li class="submenu-list__list-item">
+												<a href="#">
+													Zoom out
+												</a>
+											</li>
+											<li class="submenu-list__list-item">
+												<a href="#">
+													Improve the quality
+												</a>
+											</li>
+											<li class="submenu-list__list-item">
+												<a href="#">
+													Colorize Photo
+												</a>
+											</li>
+										</ul>
+									</li>
+									<li class="submenu-list__item">
+										<h3 class="submenu-list__list-title">
+											Voice
+										</h3>
+										<ul class="submenu-list__list">
+											<li class="submenu-list__list-item">
+												<a href="#">
+													Erase an object
+												</a>
+											</li>
+											<li class="submenu-list__list-item">
+												<a href="#">
+													Zoom out
+												</a>
+											</li>
+											<li class="submenu-list__list-item">
+												<a href="#">
+													Improve the quality
+												</a>
+											</li>
+											<li class="submenu-list__list-item">
+												<a href="#">
+													Colorize Photo
+												</a>
+											</li>
+										</ul>
+									</li>
+								</div>
+							</ul>
+						</li>
+						<li class="menu__item">
+							<a href="#">About us</a>
+						</li>
+						<li class="menu__item">
+							<a href="#">Products</a>
+						</li>
+						<li class="menu__item">
+							<a href="#">API</a>
+						</li>
+						<li class="menu__item">
+							<a href="#">Tariff plans</a>
+						</li>
+						<li class="menu__item">
+							<a href="#">News</a>
+						</li>
+					</ul>
+				</nav>
+				<div class="menu-burger">
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+				<div class="users-buttons">
+					<button class="sign-up">
+						Sign Up
+					</button>
+					<span class="delimiter">
+						/
+					</span>
+					<button class="login">
+						Login
+					</button>
+				</div>
+			</header>
+
+			<div class="wrapper-section">
+				<div class="wrapper-section__inner">
+					<div class="wrapper-menu">
+						<ul class="wrapper-menu__list">
+							<li class="wrapper-menu__item wrapper-menu__item--active"><a href="./history.html">Posts</a>
+							</li>
+
+							<li class="wrapper-menu__item"><a href="./connections.html">Projects</a></li>
+							<li class="wrapper-menu__item"><a href="./api.html">Results</a></li>
+
+							<li class="wrapper-menu__delitel"></li>
+							<li class="wrapper-menu__item  display__flex white ">
+								<a href="./settings.html">Settings</a>
+								<svg class="wrapper-menu__item-settings" width="14" height="14" viewBox="0 0 14 14"
+									fill="none" xmlns="http://www.w3.org/2000/svg">
+									<g clip-path="url(#clip0_2801_832)">
+										<path
+											d="M10.5274 5.7875L6.00077 10.351C5.94688 10.4052 5.8885 10.4435 5.82563 10.4659C5.76276 10.4886 5.6954 10.5 5.62355 10.5C5.5517 10.5 5.48434 10.4886 5.42147 10.4659C5.3586 10.4435 5.30022 10.4052 5.24633 10.351L0.706189 5.7875C0.580448 5.66111 0.517578 5.50313 0.517578 5.31354C0.517578 5.12396 0.584939 4.96146 0.719661 4.82604C0.854383 4.69063 1.01156 4.62292 1.19119 4.62292C1.37082 4.62292 1.52799 4.69063 1.66272 4.82604L5.62355 8.80729L9.58438 4.82604C9.71012 4.69965 9.86497 4.63646 10.0489 4.63646C10.2332 4.63646 10.3927 4.70417 10.5274 4.83958C10.6622 4.975 10.7295 5.13299 10.7295 5.31354C10.7295 5.4941 10.6622 5.65208 10.5274 5.7875Z"
+											fill="#1B193F" />
+									</g>
+									<defs>
+										<clipPath id="clip0_2801_832">
+											<rect width="13" height="12.9651" fill="#1B193F"
+												transform="translate(0.517578 13.5) rotate(-90)" />
+										</clipPath>
+									</defs>
+								</svg>
+								<div class="wrapper-menu__pop">
+									<ul>
+										<li class="href__animate"><a href="/ProfileSettings.html">Profile</a></li>
+										<li class="href__animate"><a href="/connections.html">Connections</a></li>
+										<li class="href__animate"><a href="/notification.html">Notification</a></li>
+										<li class="href__animate"><a href="/api.html">API Key</a></li>
+										<li class="href__animate"><a href="/storage.html">Storage</a></li>
+										<li class="href__animate"><a href="/payments.html">Payments</a></li>
+										<li class="href__animate"><a href="">Privacy</a></li>
+										<li class="href__animate"><a href="">Collaborators</a></li>
+									</ul>
+								</div>
+							</li>
+						</ul>
+					</div>
+					<div class="myproject">
+						<div class="myproject__title">
+							<span>My project</span>
+							<svg width="24" height="25" viewBox="0 0 24 25" fill="none"
+								xmlns="http://www.w3.org/2000/svg">
+								<path
+									d="M5 19.5H6.4L15.025 10.875L13.625 9.475L5 18.1V19.5ZM19.3 9.425L15.05 5.225L16.45 3.825C16.8333 3.44167 17.3043 3.25 17.863 3.25C18.4217 3.25 18.8923 3.44167 19.275 3.825L20.675 5.225C21.0583 5.60833 21.2583 6.071 21.275 6.613C21.2917 7.155 21.1083 7.61733 20.725 8L19.3 9.425ZM4 21.5C3.71667 21.5 3.479 21.404 3.287 21.212C3.095 21.02 2.99934 20.7827 3 20.5V17.675C3 17.5417 3.025 17.4123 3.075 17.287C3.125 17.1617 3.2 17.0493 3.3 16.95L13.6 6.65L17.85 10.9L7.55 21.2C7.45 21.3 7.33767 21.375 7.213 21.425C7.08834 21.475 6.959 21.5 6.825 21.5H4ZM14.325 10.175L13.625 9.475L15.025 10.875L14.325 10.175Z"
+									fill="#686F7B" />
+							</svg>
+						</div>
+						<div class="myproject__links">
+							<div class="myproject__link ">
+								<a href="">Posts</a>
+							</div>
+							<div class="myproject__link myproject__link-active">
+								<a href="">Connections</a>
+							</div>
+							<div class="myproject__link">
+								<a href="">News feeds</a>
+							</div>
+							<div class="myproject__link">
+								<a href="">Results</a>
+							</div>
+							<div class="myproject__link">
+								<a href="">Collaborators</a>
+							</div>
+						</div>
+						<div class="myproject__connections">
+							<div class="myproject__connections-title">
+								<span>Connections</span>
+								<button>
+									<svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+										xmlns="http://www.w3.org/2000/svg">
+										<path
+											d="M18 12.998H13V17.998C13 18.2633 12.8946 18.5176 12.7071 18.7052C12.5196 18.8927 12.2652 18.998 12 18.998C11.7348 18.998 11.4804 18.8927 11.2929 18.7052C11.1054 18.5176 11 18.2633 11 17.998V12.998H6C5.73478 12.998 5.48043 12.8927 5.29289 12.7052C5.10536 12.5176 5 12.2633 5 11.998C5 11.7328 5.10536 11.4785 5.29289 11.2909C5.48043 11.1034 5.73478 10.998 6 10.998H11V5.99805C11 5.73283 11.1054 5.47848 11.2929 5.29094C11.4804 5.1034 11.7348 4.99805 12 4.99805C12.2652 4.99805 12.5196 5.1034 12.7071 5.29094C12.8946 5.47848 13 5.73283 13 5.99805V10.998H18C18.2652 10.998 18.5196 11.1034 18.7071 11.2909C18.8946 11.4785 19 11.7328 19 11.998C19 12.2633 18.8946 12.5176 18.7071 12.7052C18.5196 12.8927 18.2652 12.998 18 12.998Z"
+											fill="#1B193F" />
+									</svg>
+									<span>Add connection</span>
+								</button>
+							</div>
+						</div>
+						<div class="myproject__connections-main">
+							<div class="add_project_form--list">
+								<label class="add_project_form--item">
+									<input type="checkbox" name="" checked />
+									<span>
+										<img src="./img/inst-grey.svg" width="24" height="24" alt=""
+											class="add_project_form--item__icon">
+										<span class="ui-table__text">Instagram</span>
+										<span class="ui-table__text">(@)</span>
+									</span>
+								</label>
+								<label class="add_project_form--item">
+									<input type="checkbox" name="" checked />
+									<span>
+										<img src="./img/inst-grey.svg" width="24" height="24" alt=""
+											class="add_project_form--item__icon">
+										<span class="ui-table__text">Telegram</span>
+										<span class="ui-table__text">(@)</span>
+									</span>
+								</label>
+								<label class="add_project_form--item">
+									<input type="checkbox" name="" checked />
+									<span>
+										<img src="./img/inst-grey.svg" width="24" height="24" alt=""
+											class="add_project_form--item__icon">
+										<span class="ui-table__text">Telegram</span>
+										<span class="ui-table__text">(@)</span>
+									</span>
+								</label>
+								<label class="add_project_form--item">
+									<input type="checkbox" name="" checked />
+									<span>
+										<img src="./img/tg-grey.svg" width="24" height="24" alt=""
+											class="add_project_form--item__icon">
+										<span class="ui-table__text">Telegram</span>
+										<span class="ui-table__text">(@)</span>
+									</span>
+								</label>
+								<label class="add_project_form--item">
+									<input type="checkbox" name="" checked />
+									<span>
+										<img src="./img/tg-grey.svg" width="24" height="24" alt=""
+											class="add_project_form--item__icon">
+										<span class="ui-table__text">Telegram</span>
+										<span class="ui-table__text">(@)</span>
+									</span>
+								</label>
+								<label class="add_project_form--item">
+									<input type="checkbox" name="" checked />
+									<span>
+										<img src="./img/tg-grey.svg" width="24" height="24" alt=""
+											class="add_project_form--item__icon">
+										<span class="ui-table__text">Telegram</span>
+										<span class="ui-table__text">(@)</span>
+									</span>
+								</label>
+							</div>
+						</div>
+
+					</div>
+
+				</div>
+
+			</div>
+		</div>
+		<footer class="footer">
+			<div class="wrap">
+				<div class="footer-logo">
+					<img src="./img/logo-footer.svg" alt="footer logo">
+				</div>
+				<div class="footer__menu">
+					<ul class="footer__menu-list footer__menu-list-wrap">
+						<h3 class="footer__menu-title">
+							Tools
+						</h3>
+						<div class="footer__menu-wrap-inner">
+							<div class="footer__menu-wrap">
+								<li class="footer__menu-item">
+									<a class="footer__menu-link link-write-text" href="#working-text">
+										Write text
+									</a>
+								</li>
+								<li class="footer__menu-item">
+									<a class="footer__menu-link link-translate-text" href="#working-text">
+										Translate text
+									</a>
+								</li>
+								<li class="footer__menu-item">
+									<a class="footer__menu-link link-summarize" href="#working-text">
+										Summarize
+									</a>
+								</li>
+								<li class="footer__menu-item">
+									<a class="footer__menu-link link-rewrite" href="#working-text">
+										Rewrite
+									</a>
+								</li>
+								<li class="footer__menu-item">
+									<a class="footer__menu-link link-text-to-image" href="#image-generation">
+										Text to image
+									</a>
+								</li>
+								<li class="footer__menu-item">
+									<a class="footer__menu-link link-similar-image" href="#image-generation">
+										Make a similar image
+									</a>
+								</li>
+								<li class="footer__menu-item">
+									<a class="footer__menu-link link-image-description" href="#image-generation">
+										Image description
+									</a>
+								</li>
+							</div>
+							<div class="footer__menu-wrap">
+								<li class="footer__menu-item">
+									<a class="footer__menu-link link-text-recognition" href="#image-generation">
+										Text recognition
+									</a>
+								</li>
+								<li class="footer__menu-item">
+									<a class="footer__menu-link link-remove-background" href="#image-generation">
+										Remove background
+									</a>
+								</li>
+								<li class="footer__menu-item">
+									<a class="footer__menu-link link-erase-object" href="#image-generation">
+										Erase an object
+									</a>
+								</li>
+								<li class="footer__menu-item">
+									<a class="footer__menu-link link-zoom-out" href="#image-generation">
+										Zoom out
+									</a>
+								</li>
+								<li class="footer__menu-item">
+									<a class="footer__menu-link link-improve-qality" href="#image-generation">
+										Improve the quality
+									</a>
+								</li>
+								<li class="footer__menu-item">
+									<a class="footer__menu-link link-colorize-photo" href="#image-generation">
+										Colorize Photo
+									</a>
+								</li>
+								<li class="footer__menu-item">
+									<a class="footer__menu-link" href="#">
+										Removing recording
+									</a>
+								</li>
+							</div>
+							<div class="footer__menu-wrap">
+								<li class="footer__menu-item">
+									<a class="footer__menu-link" href="#">
+										Text dubbing
+									</a>
+								</li>
+								<li class="footer__menu-item">
+									<a class="footer__menu-link" href="#">
+										Music by text description
+									</a>
+								</li>
+								<li class="footer__menu-item">
+									<a class="footer__menu-link" href="#">
+										Audio to text
+									</a>
+								</li>
+								<li class="footer__menu-item">
+									<a class="footer__menu-link" href="#">
+										Removing the background of a video
+									</a>
+								</li>
+								<li class="footer__menu-item">
+									<a class="footer__menu-link" href="#">
+										The text in the video
+									</a>
+								</li>
+								<li class="footer__menu-item">
+									<a class="footer__menu-link" href="#">
+										The image in the video
+									</a>
+								</li>
+								<li class="footer__menu-item">
+									<a class="footer__menu-link" href="#">
+										Video to text
+									</a>
+								</li>
+							</div>
+						</div>
+					</ul>
+					<ul class="footer__menu-list">
+						<h3 class="footer__menu-title">
+							Products
+						</h3>
+						<li class="footer__menu-item">
+							<a class="footer__menu-link" href="#">
+								Neuron
+							</a>
+						</li>
+						<li class="footer__menu-item">
+							<a class="footer__menu-link" href="#">
+								SMM manager
+							</a>
+						</li>
+					</ul>
+					<ul class="footer__menu-list">
+						<h3 class="footer__menu-title">
+							Community
+						</h3>
+						<li class="footer__menu-item">
+							<a class="footer__menu-link" href="#">
+								Telegram
+							</a>
+						</li>
+						<li class="footer__menu-item">
+							<a class="footer__menu-link" href="#">
+								Instagram
+							</a>
+						</li>
+						<li class="footer__menu-item">
+							<a class="footer__menu-link" href="#">
+								LN
+							</a>
+						</li>
+					</ul>
+					<ul class="footer__menu-list">
+						<h3 class="footer__menu-title">
+							About us
+						</h3>
+						<li class="footer__menu-item">
+							<a class="footer__menu-link" href="#">
+								Neuron Inc
+							</a>
+						</li>
+						<li class="footer__menu-item">
+							<a class="footer__menu-link" href="#">
+								Contacts
+							</a>
+						</li>
+						<li class="footer__menu-item">
+							<a class="footer__menu-link" href="#">
+								FAQ
+							</a>
+						</li>
+					</ul>
+					<ul class="footer__menu-list">
+						<h3 class="footer__menu-title">
+							API
+						</h3>
+						<li class="footer__menu-item">
+							<a class="footer__menu-link" href="#">
+								API documentation
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div class="footer__bottom">
+					<ul class="footer__socials">
+						<li class="footer__socials-item">
+							<a href="#">
+								<img src="./img/twitter.svg" alt="twitter">
+							</a>
+						</li>
+						<li class="footer__socials-item">
+							<a href="#">
+								<img src="./img/linkedin.svg" alt="linkedin">
+							</a>
+						</li>
+						<li class="footer__socials-item">
+							<a href="#">
+								<img src="./img/facebook.svg" alt="facebook">
+							</a>
+						</li>
+					</ul>
+					<p class="footer__copy">
+						© 2023 Neuron Inc., All rights reserved
+					</p>
+					<a class="footer__privacy" href="#">
+						Privacy policy
+					</a>
+				</div>
+			</div>
+		</footer>
+	</div>
+
+
+
+
+
+
+	<script src="./js/scripts.js" type="module"></script>
+	<script>
+
+	</script>
+	<!-- tagify -->
+	<script src="./js/tagify.js"></script>
+	<link href="./css/tagify.css" rel="stylesheet" type="text/css" />
+
+	<!--sl--scrollable-->
+	<script src="./js/sl.scrollable.js"></script>
+
+	<script rel="preconnect" src="https://cdn.tailwindcss.com"></script>
+</body>
+
+</html>

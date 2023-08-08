@@ -1,0 +1,757 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>My project</title>
+	<link rel="stylesheet" href="./style.css">
+	<link rel="icon" href="./fav.png">
+</head>
+
+<body>
+	<div class="write-text-page">
+		<div class="wrap">
+			<header class="header">
+				<a class="logo" href="#">
+					<img src="./img/logo.svg" alt="logo">
+				</a>
+				<nav class="menu">
+					<ul class="menu__list">
+						<li class="menu__item">
+							<div class="menu__link menu__link-tools" href="#">Tools</div>
+							<ul class="submenu-list">
+								<div class="submenu-list__wrapper">
+									<li class="submenu-list__item">
+										<h3 class="submenu-list__list-title">
+											Text
+										</h3>
+										<ul class="submenu-list__list">
+											<li class="submenu-list__list-item">
+												<a class="link-write-text" href="#working-text">
+													Write text
+												</a>
+											</li>
+											<li class="submenu-list__list-item">
+												<a class="link-translate-text" href="#working-text">
+													Translate text
+												</a>
+											</li>
+											<li class="submenu-list__list-item">
+												<a class="link-summarize" href="#working-text">
+													Summarize
+												</a>
+											</li>
+											<li class="submenu-list__list-item">
+												<a class="link-rewrite" href="#working-text">
+													Rewrite
+												</a>
+											</li>
+										</ul>
+									</li>
+									<li class="submenu-list__item">
+										<h3 class="submenu-list__list-title">
+											Image
+										</h3>
+										<ul class="submenu-list__list submenu-list__list-image">
+											<div>
+												<li class="submenu-list__list-item">
+													<a class="link-text-to-image" href="#image-generation">
+														Text to image
+													</a>
+												</li>
+												<li class="submenu-list__list-item">
+													<a class="link-similar-image" href="#image-generation">
+														Make a similar image
+													</a>
+												</li>
+												<li class="submenu-list__list-item">
+													<a class="link-image-description" href="#image-generation">
+														Image description
+													</a>
+												</li>
+												<li class="submenu-list__list-item">
+													<a class="link-text-recognition" href="#image-generation">
+														Text recognition
+													</a>
+												</li>
+												<li class="submenu-list__list-item">
+													<a class="link-remove-background" href="#image-generation">
+														Remove background
+													</a>
+												</li>
+											</div>
+											<div>
+												<li class="submenu-list__list-item">
+													<a class="link-erase-object" href="#image-generation">
+														Erase an object
+													</a>
+												</li>
+												<li class="submenu-list__list-item">
+													<a class="link-zoom-out" href="#image-generation">
+														Zoom out
+													</a>
+												</li>
+												<li class="submenu-list__list-item">
+													<a class="link-improve-qality" href="#image-generation">
+														Improve the quality
+													</a>
+												</li>
+												<li class="submenu-list__list-item">
+													<a class="link-colorize-photo" href="#image-generation">
+														Colorize Photo
+													</a>
+												</li>
+											</div>
+										</ul>
+									</li>
+									<li class="submenu-list__item">
+										<h3 class="submenu-list__list-title">
+											Video
+										</h3>
+										<ul class="submenu-list__list">
+											<li class="submenu-list__list-item">
+												<a href="#">
+													Erase an object
+												</a>
+											</li>
+											<li class="submenu-list__list-item">
+												<a href="#">
+													Zoom out
+												</a>
+											</li>
+											<li class="submenu-list__list-item">
+												<a href="#">
+													Improve the quality
+												</a>
+											</li>
+											<li class="submenu-list__list-item">
+												<a href="#">
+													Colorize Photo
+												</a>
+											</li>
+										</ul>
+									</li>
+									<li class="submenu-list__item">
+										<h3 class="submenu-list__list-title">
+											Voice
+										</h3>
+										<ul class="submenu-list__list">
+											<li class="submenu-list__list-item">
+												<a href="#">
+													Erase an object
+												</a>
+											</li>
+											<li class="submenu-list__list-item">
+												<a href="#">
+													Zoom out
+												</a>
+											</li>
+											<li class="submenu-list__list-item">
+												<a href="#">
+													Improve the quality
+												</a>
+											</li>
+											<li class="submenu-list__list-item">
+												<a href="#">
+													Colorize Photo
+												</a>
+											</li>
+										</ul>
+									</li>
+								</div>
+							</ul>
+						</li>
+						<li class="menu__item">
+							<a href="#">About us</a>
+						</li>
+						<li class="menu__item">
+							<a href="#">Products</a>
+						</li>
+						<li class="menu__item">
+							<a href="#">API</a>
+						</li>
+						<li class="menu__item">
+							<a href="#">Tariff plans</a>
+						</li>
+						<li class="menu__item">
+							<a href="#">News</a>
+						</li>
+					</ul>
+				</nav>
+				<div class="menu-burger">
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+				<div class="users-buttons">
+					<button class="sign-up">
+						Sign Up
+					</button>
+					<span class="delimiter">
+						/
+					</span>
+					<button class="login">
+						Login
+					</button>
+				</div>
+			</header>
+
+			<div class="wrapper-section">
+				<div class="wrapper-section__inner">
+					<div class="wrapper-menu">
+						<ul class="wrapper-menu__list">
+							<li class="wrapper-menu__item wrapper-menu__item--active"><a href="./history.html">Posts</a>
+							</li>
+
+							<li class="wrapper-menu__item"><a href="./connections.html">Projects</a></li>
+							<li class="wrapper-menu__item"><a href="./api.html">Results</a></li>
+
+							<li class="wrapper-menu__delitel"></li>
+							<li class="wrapper-menu__item  display__flex white ">
+								<a href="./settings.html">Settings</a>
+								<svg class="wrapper-menu__item-settings" width="14" height="14" viewBox="0 0 14 14"
+									fill="none" xmlns="http://www.w3.org/2000/svg">
+									<g clip-path="url(#clip0_2801_832)">
+										<path
+											d="M10.5274 5.7875L6.00077 10.351C5.94688 10.4052 5.8885 10.4435 5.82563 10.4659C5.76276 10.4886 5.6954 10.5 5.62355 10.5C5.5517 10.5 5.48434 10.4886 5.42147 10.4659C5.3586 10.4435 5.30022 10.4052 5.24633 10.351L0.706189 5.7875C0.580448 5.66111 0.517578 5.50313 0.517578 5.31354C0.517578 5.12396 0.584939 4.96146 0.719661 4.82604C0.854383 4.69063 1.01156 4.62292 1.19119 4.62292C1.37082 4.62292 1.52799 4.69063 1.66272 4.82604L5.62355 8.80729L9.58438 4.82604C9.71012 4.69965 9.86497 4.63646 10.0489 4.63646C10.2332 4.63646 10.3927 4.70417 10.5274 4.83958C10.6622 4.975 10.7295 5.13299 10.7295 5.31354C10.7295 5.4941 10.6622 5.65208 10.5274 5.7875Z"
+											fill="#1B193F" />
+									</g>
+									<defs>
+										<clipPath id="clip0_2801_832">
+											<rect width="13" height="12.9651" fill="#1B193F"
+												transform="translate(0.517578 13.5) rotate(-90)" />
+										</clipPath>
+									</defs>
+								</svg>
+								<div class="wrapper-menu__pop">
+									<ul>
+										<li class="href__animate"><a href="/ProfileSettings.html">Profile</a></li>
+										<li class="href__animate"><a href="/connections.html">Connections</a></li>
+										<li class="href__animate"><a href="/notification.html">Notification</a></li>
+										<li class="href__animate"><a href="/api.html">API Key</a></li>
+										<li class="href__animate"><a href="/storage.html">Storage</a></li>
+										<li class="href__animate"><a href="/payments.html">Payments</a></li>
+										<li class="href__animate"><a href="">Privacy</a></li>
+										<li class="href__animate"><a href="">Collaborators</a></li>
+									</ul>
+								</div>
+							</li>
+						</ul>
+					</div>
+					<div class="myproject">
+						<div class="myproject__title">
+							<span>My project</span>
+							<svg width="24" height="25" viewBox="0 0 24 25" fill="none"
+								xmlns="http://www.w3.org/2000/svg">
+								<path
+									d="M5 19.5H6.4L15.025 10.875L13.625 9.475L5 18.1V19.5ZM19.3 9.425L15.05 5.225L16.45 3.825C16.8333 3.44167 17.3043 3.25 17.863 3.25C18.4217 3.25 18.8923 3.44167 19.275 3.825L20.675 5.225C21.0583 5.60833 21.2583 6.071 21.275 6.613C21.2917 7.155 21.1083 7.61733 20.725 8L19.3 9.425ZM4 21.5C3.71667 21.5 3.479 21.404 3.287 21.212C3.095 21.02 2.99934 20.7827 3 20.5V17.675C3 17.5417 3.025 17.4123 3.075 17.287C3.125 17.1617 3.2 17.0493 3.3 16.95L13.6 6.65L17.85 10.9L7.55 21.2C7.45 21.3 7.33767 21.375 7.213 21.425C7.08834 21.475 6.959 21.5 6.825 21.5H4ZM14.325 10.175L13.625 9.475L15.025 10.875L14.325 10.175Z"
+									fill="#686F7B" />
+							</svg>
+						</div>
+						<div class="myproject__links">
+							<div class="myproject__link ">
+								<a href="">Posts</a>
+							</div>
+							<div class="myproject__link ">
+								<a href="">Connections</a>
+							</div>
+							<div class="myproject__link ">
+								<a href="">News feeds</a>
+							</div>
+							<div class="myproject__link ">
+								<a href="">Results</a>
+							</div>
+							<div class="myproject__link myproject__link-active">
+								<a href="">Collaborators</a>
+							</div>
+						</div>
+						<div class="myproject__collaborators">
+							<div class="myproject__collaborators-tabs">
+								<span
+									class=" myproject__collaborators-tabs-title myproject__collaborators-tabs-invite active">Invite</span>
+								<span
+									class="myproject__collaborators-tabs-title myproject__collaborators-tabs-manage">Manage
+									collaborators</span>
+							</div>
+							<div class="myproject__collaborators-invite active ">
+								<div class="myproject__collaborators-invite-main">
+									<div class="myproject__collaborators-invite-inps">
+										<div class="myproject__collaborators-invite-content">
+											<div class="myproject__collaborators-invite-title">Email</div>
+											<div class="myproject__collaborators-invite-inp width393">
+												<input placeholder="Invite by email..." type="text">
+											</div>
+										</div>
+										<div class="myproject__collaborators-invite-content">
+											<div class="myproject__collaborators-invite-title">Permission</div>
+											<div class="myproject__collaborators-invite-inp">
+
+												<div class="myproject__collaborators-invite-creator">
+													<span>Creator</span>
+													<svg width="17" height="15" viewBox="0 0 17 15" fill="none"
+														xmlns="http://www.w3.org/2000/svg">
+														<path
+															d="M12.5645 7.2875L8.03788 11.851C7.98399 11.9052 7.92561 11.9435 7.86274 11.9659C7.79987 11.9886 7.73251 12 7.66066 12C7.58881 12 7.52145 11.9886 7.45858 11.9659C7.39571 11.9435 7.33733 11.9052 7.28344 11.851L2.7433 7.2875C2.61756 7.16111 2.55469 7.00313 2.55469 6.81354C2.55469 6.62396 2.62205 6.46146 2.75677 6.32604C2.89149 6.19063 3.04867 6.12292 3.2283 6.12292C3.40793 6.12292 3.5651 6.19063 3.69983 6.32604L7.66066 10.3073L11.6215 6.32604C11.7472 6.19965 11.9021 6.13646 12.086 6.13646C12.2703 6.13646 12.4298 6.20417 12.5645 6.33958C12.6993 6.475 12.7666 6.63299 12.7666 6.81354C12.7666 6.9941 12.6993 7.15208 12.5645 7.2875Z"
+															fill="#1B193F" />
+													</svg>
+
+												</div>
+											</div>
+										</div>
+
+									</div>
+									<div class="myproject__collaborators-invite-btn">
+										<button>Invite</button>
+									</div>
+								</div>
+
+							</div>
+							<div class="myproject__collaborators-manage">
+								<div class="myproject__collaborators-manage-top">
+									<div
+										class="myproject__collaborators-manage-email myproject__collaborators-manage-title">
+										Email
+									</div>
+									<div
+										class="myproject__collaborators-manage-permission myproject__collaborators-manage-title">
+										Permission
+									</div>
+									<div
+										class="myproject__collaborators-manage-invited myproject__collaborators-manage-title">
+										Invited
+									</div>
+								</div>
+								<div class="myproject__collaborators-manage-main">
+									<div class="myproject__collaborators-manage-scrol">
+										<div class="myproject__collaborators-manage-item">
+											<div class="myproject__collaborators-item-content">
+												<div
+													class="myproject__collaborators-manage-email myproject__collaborators-manage-name">
+													Name1
+												</div>
+												<div class="myproject__collaborators-manage-permission">
+													Creator
+												</div>
+												<div class="myproject__collaborators-manage-invited">
+													01.01.2023
+												</div>
+											</div>
+											<div class="myproject__collaborators-item-right"><svg width="24" height="24"
+													viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<path
+														d="M20.5 6H3.5M18.833 8.5L18.373 15.4C18.196 18.054 18.108 19.381 17.243 20.19C16.378 21 15.047 21 12.387 21H11.613C8.953 21 7.622 21 6.757 20.19C5.892 19.381 5.803 18.054 5.627 15.4L5.167 8.5M9.5 11L10 16M14.5 11L14 16"
+														stroke="#686F7B" stroke-width="1.5" stroke-linecap="round" />
+													<path
+														d="M6.5 6H6.61C7.01245 5.98972 7.40242 5.85822 7.72892 5.62271C8.05543 5.3872 8.30325 5.05864 8.44 4.68L8.474 4.577L8.571 4.286C8.654 4.037 8.696 3.913 8.751 3.807C8.85921 3.59939 9.01451 3.41999 9.20448 3.28316C9.39444 3.14633 9.6138 3.05586 9.845 3.019C9.962 3 10.093 3 10.355 3H13.645C13.907 3 14.038 3 14.155 3.019C14.3862 3.05586 14.6056 3.14633 14.7955 3.28316C14.9855 3.41999 15.1408 3.59939 15.249 3.807C15.304 3.913 15.346 4.037 15.429 4.286L15.526 4.577C15.6527 4.99827 15.9148 5.36601 16.2717 5.62326C16.6285 5.88051 17.0603 6.01293 17.5 6"
+														stroke="#686F7B" stroke-width="1.5" />
+												</svg>
+											</div>
+										</div>
+										<div class="myproject__collaborators-manage-item">
+											<div class="myproject__collaborators-item-content">
+												<div
+													class="myproject__collaborators-manage-email myproject__collaborators-manage-name">
+													Name1
+												</div>
+												<div class="myproject__collaborators-manage-permission">
+													Creator
+												</div>
+												<div class="myproject__collaborators-manage-invited">
+													01.01.2023
+												</div>
+											</div>
+											<div class="myproject__collaborators-item-right"><svg width="24" height="24"
+													viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<path
+														d="M20.5 6H3.5M18.833 8.5L18.373 15.4C18.196 18.054 18.108 19.381 17.243 20.19C16.378 21 15.047 21 12.387 21H11.613C8.953 21 7.622 21 6.757 20.19C5.892 19.381 5.803 18.054 5.627 15.4L5.167 8.5M9.5 11L10 16M14.5 11L14 16"
+														stroke="#686F7B" stroke-width="1.5" stroke-linecap="round" />
+													<path
+														d="M6.5 6H6.61C7.01245 5.98972 7.40242 5.85822 7.72892 5.62271C8.05543 5.3872 8.30325 5.05864 8.44 4.68L8.474 4.577L8.571 4.286C8.654 4.037 8.696 3.913 8.751 3.807C8.85921 3.59939 9.01451 3.41999 9.20448 3.28316C9.39444 3.14633 9.6138 3.05586 9.845 3.019C9.962 3 10.093 3 10.355 3H13.645C13.907 3 14.038 3 14.155 3.019C14.3862 3.05586 14.6056 3.14633 14.7955 3.28316C14.9855 3.41999 15.1408 3.59939 15.249 3.807C15.304 3.913 15.346 4.037 15.429 4.286L15.526 4.577C15.6527 4.99827 15.9148 5.36601 16.2717 5.62326C16.6285 5.88051 17.0603 6.01293 17.5 6"
+														stroke="#686F7B" stroke-width="1.5" />
+												</svg>
+											</div>
+										</div>
+										<div class="myproject__collaborators-manage-item">
+											<div class="myproject__collaborators-item-content">
+												<div
+													class="myproject__collaborators-manage-email myproject__collaborators-manage-name">
+													Name1
+												</div>
+												<div class="myproject__collaborators-manage-permission">
+													Creator
+												</div>
+												<div class="myproject__collaborators-manage-invited">
+													01.01.2023
+												</div>
+											</div>
+											<div class="myproject__collaborators-item-right"><svg width="24" height="24"
+													viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<path
+														d="M20.5 6H3.5M18.833 8.5L18.373 15.4C18.196 18.054 18.108 19.381 17.243 20.19C16.378 21 15.047 21 12.387 21H11.613C8.953 21 7.622 21 6.757 20.19C5.892 19.381 5.803 18.054 5.627 15.4L5.167 8.5M9.5 11L10 16M14.5 11L14 16"
+														stroke="#686F7B" stroke-width="1.5" stroke-linecap="round" />
+													<path
+														d="M6.5 6H6.61C7.01245 5.98972 7.40242 5.85822 7.72892 5.62271C8.05543 5.3872 8.30325 5.05864 8.44 4.68L8.474 4.577L8.571 4.286C8.654 4.037 8.696 3.913 8.751 3.807C8.85921 3.59939 9.01451 3.41999 9.20448 3.28316C9.39444 3.14633 9.6138 3.05586 9.845 3.019C9.962 3 10.093 3 10.355 3H13.645C13.907 3 14.038 3 14.155 3.019C14.3862 3.05586 14.6056 3.14633 14.7955 3.28316C14.9855 3.41999 15.1408 3.59939 15.249 3.807C15.304 3.913 15.346 4.037 15.429 4.286L15.526 4.577C15.6527 4.99827 15.9148 5.36601 16.2717 5.62326C16.6285 5.88051 17.0603 6.01293 17.5 6"
+														stroke="#686F7B" stroke-width="1.5" />
+												</svg>
+											</div>
+										</div>
+										<div class="myproject__collaborators-manage-item">
+											<div class="myproject__collaborators-item-content">
+												<div
+													class="myproject__collaborators-manage-email myproject__collaborators-manage-name">
+													Name1
+												</div>
+												<div class="myproject__collaborators-manage-permission">
+													Creator
+												</div>
+												<div class="myproject__collaborators-manage-invited">
+													01.01.2023
+												</div>
+											</div>
+											<div class="myproject__collaborators-item-right"><svg width="24" height="24"
+													viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<path
+														d="M20.5 6H3.5M18.833 8.5L18.373 15.4C18.196 18.054 18.108 19.381 17.243 20.19C16.378 21 15.047 21 12.387 21H11.613C8.953 21 7.622 21 6.757 20.19C5.892 19.381 5.803 18.054 5.627 15.4L5.167 8.5M9.5 11L10 16M14.5 11L14 16"
+														stroke="#686F7B" stroke-width="1.5" stroke-linecap="round" />
+													<path
+														d="M6.5 6H6.61C7.01245 5.98972 7.40242 5.85822 7.72892 5.62271C8.05543 5.3872 8.30325 5.05864 8.44 4.68L8.474 4.577L8.571 4.286C8.654 4.037 8.696 3.913 8.751 3.807C8.85921 3.59939 9.01451 3.41999 9.20448 3.28316C9.39444 3.14633 9.6138 3.05586 9.845 3.019C9.962 3 10.093 3 10.355 3H13.645C13.907 3 14.038 3 14.155 3.019C14.3862 3.05586 14.6056 3.14633 14.7955 3.28316C14.9855 3.41999 15.1408 3.59939 15.249 3.807C15.304 3.913 15.346 4.037 15.429 4.286L15.526 4.577C15.6527 4.99827 15.9148 5.36601 16.2717 5.62326C16.6285 5.88051 17.0603 6.01293 17.5 6"
+														stroke="#686F7B" stroke-width="1.5" />
+												</svg>
+											</div>
+										</div>
+										<div class="myproject__collaborators-manage-item">
+											<div class="myproject__collaborators-item-content">
+												<div
+													class="myproject__collaborators-manage-email myproject__collaborators-manage-name">
+													Name1
+												</div>
+												<div class="myproject__collaborators-manage-permission">
+													Creator
+												</div>
+												<div class="myproject__collaborators-manage-invited">
+													01.01.2023
+												</div>
+											</div>
+											<div class="myproject__collaborators-item-right"><svg width="24" height="24"
+													viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<path
+														d="M20.5 6H3.5M18.833 8.5L18.373 15.4C18.196 18.054 18.108 19.381 17.243 20.19C16.378 21 15.047 21 12.387 21H11.613C8.953 21 7.622 21 6.757 20.19C5.892 19.381 5.803 18.054 5.627 15.4L5.167 8.5M9.5 11L10 16M14.5 11L14 16"
+														stroke="#686F7B" stroke-width="1.5" stroke-linecap="round" />
+													<path
+														d="M6.5 6H6.61C7.01245 5.98972 7.40242 5.85822 7.72892 5.62271C8.05543 5.3872 8.30325 5.05864 8.44 4.68L8.474 4.577L8.571 4.286C8.654 4.037 8.696 3.913 8.751 3.807C8.85921 3.59939 9.01451 3.41999 9.20448 3.28316C9.39444 3.14633 9.6138 3.05586 9.845 3.019C9.962 3 10.093 3 10.355 3H13.645C13.907 3 14.038 3 14.155 3.019C14.3862 3.05586 14.6056 3.14633 14.7955 3.28316C14.9855 3.41999 15.1408 3.59939 15.249 3.807C15.304 3.913 15.346 4.037 15.429 4.286L15.526 4.577C15.6527 4.99827 15.9148 5.36601 16.2717 5.62326C16.6285 5.88051 17.0603 6.01293 17.5 6"
+														stroke="#686F7B" stroke-width="1.5" />
+												</svg>
+											</div>
+										</div>
+										<div class="myproject__collaborators-manage-item">
+											<div class="myproject__collaborators-item-content">
+												<div
+													class="myproject__collaborators-manage-email myproject__collaborators-manage-name">
+													Name1
+												</div>
+												<div class="myproject__collaborators-manage-permission">
+													Creator
+												</div>
+												<div class="myproject__collaborators-manage-invited">
+													01.01.2023
+												</div>
+											</div>
+											<div class="myproject__collaborators-item-right"><svg width="24" height="24"
+													viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<path
+														d="M20.5 6H3.5M18.833 8.5L18.373 15.4C18.196 18.054 18.108 19.381 17.243 20.19C16.378 21 15.047 21 12.387 21H11.613C8.953 21 7.622 21 6.757 20.19C5.892 19.381 5.803 18.054 5.627 15.4L5.167 8.5M9.5 11L10 16M14.5 11L14 16"
+														stroke="#686F7B" stroke-width="1.5" stroke-linecap="round" />
+													<path
+														d="M6.5 6H6.61C7.01245 5.98972 7.40242 5.85822 7.72892 5.62271C8.05543 5.3872 8.30325 5.05864 8.44 4.68L8.474 4.577L8.571 4.286C8.654 4.037 8.696 3.913 8.751 3.807C8.85921 3.59939 9.01451 3.41999 9.20448 3.28316C9.39444 3.14633 9.6138 3.05586 9.845 3.019C9.962 3 10.093 3 10.355 3H13.645C13.907 3 14.038 3 14.155 3.019C14.3862 3.05586 14.6056 3.14633 14.7955 3.28316C14.9855 3.41999 15.1408 3.59939 15.249 3.807C15.304 3.913 15.346 4.037 15.429 4.286L15.526 4.577C15.6527 4.99827 15.9148 5.36601 16.2717 5.62326C16.6285 5.88051 17.0603 6.01293 17.5 6"
+														stroke="#686F7B" stroke-width="1.5" />
+												</svg>
+											</div>
+										</div>
+										<div class="myproject__collaborators-manage-item">
+											<div class="myproject__collaborators-item-content">
+												<div
+													class="myproject__collaborators-manage-email myproject__collaborators-manage-name">
+													Name1
+												</div>
+												<div class="myproject__collaborators-manage-permission">
+													Creator
+												</div>
+												<div class="myproject__collaborators-manage-invited">
+													01.01.2023
+												</div>
+											</div>
+											<div class="myproject__collaborators-item-right"><svg width="24" height="24"
+													viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<path
+														d="M20.5 6H3.5M18.833 8.5L18.373 15.4C18.196 18.054 18.108 19.381 17.243 20.19C16.378 21 15.047 21 12.387 21H11.613C8.953 21 7.622 21 6.757 20.19C5.892 19.381 5.803 18.054 5.627 15.4L5.167 8.5M9.5 11L10 16M14.5 11L14 16"
+														stroke="#686F7B" stroke-width="1.5" stroke-linecap="round" />
+													<path
+														d="M6.5 6H6.61C7.01245 5.98972 7.40242 5.85822 7.72892 5.62271C8.05543 5.3872 8.30325 5.05864 8.44 4.68L8.474 4.577L8.571 4.286C8.654 4.037 8.696 3.913 8.751 3.807C8.85921 3.59939 9.01451 3.41999 9.20448 3.28316C9.39444 3.14633 9.6138 3.05586 9.845 3.019C9.962 3 10.093 3 10.355 3H13.645C13.907 3 14.038 3 14.155 3.019C14.3862 3.05586 14.6056 3.14633 14.7955 3.28316C14.9855 3.41999 15.1408 3.59939 15.249 3.807C15.304 3.913 15.346 4.037 15.429 4.286L15.526 4.577C15.6527 4.99827 15.9148 5.36601 16.2717 5.62326C16.6285 5.88051 17.0603 6.01293 17.5 6"
+														stroke="#686F7B" stroke-width="1.5" />
+												</svg>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+		<footer class="footer">
+			<div class="wrap">
+				<div class="footer-logo">
+					<img src="./img/logo-footer.svg" alt="footer logo">
+				</div>
+				<div class="footer__menu">
+					<ul class="footer__menu-list footer__menu-list-wrap">
+						<h3 class="footer__menu-title">
+							Tools
+						</h3>
+						<div class="footer__menu-wrap-inner">
+							<div class="footer__menu-wrap">
+								<li class="footer__menu-item">
+									<a class="footer__menu-link link-write-text" href="#working-text">
+										Write text
+									</a>
+								</li>
+								<li class="footer__menu-item">
+									<a class="footer__menu-link link-translate-text" href="#working-text">
+										Translate text
+									</a>
+								</li>
+								<li class="footer__menu-item">
+									<a class="footer__menu-link link-summarize" href="#working-text">
+										Summarize
+									</a>
+								</li>
+								<li class="footer__menu-item">
+									<a class="footer__menu-link link-rewrite" href="#working-text">
+										Rewrite
+									</a>
+								</li>
+								<li class="footer__menu-item">
+									<a class="footer__menu-link link-text-to-image" href="#image-generation">
+										Text to image
+									</a>
+								</li>
+								<li class="footer__menu-item">
+									<a class="footer__menu-link link-similar-image" href="#image-generation">
+										Make a similar image
+									</a>
+								</li>
+								<li class="footer__menu-item">
+									<a class="footer__menu-link link-image-description" href="#image-generation">
+										Image description
+									</a>
+								</li>
+							</div>
+							<div class="footer__menu-wrap">
+								<li class="footer__menu-item">
+									<a class="footer__menu-link link-text-recognition" href="#image-generation">
+										Text recognition
+									</a>
+								</li>
+								<li class="footer__menu-item">
+									<a class="footer__menu-link link-remove-background" href="#image-generation">
+										Remove background
+									</a>
+								</li>
+								<li class="footer__menu-item">
+									<a class="footer__menu-link link-erase-object" href="#image-generation">
+										Erase an object
+									</a>
+								</li>
+								<li class="footer__menu-item">
+									<a class="footer__menu-link link-zoom-out" href="#image-generation">
+										Zoom out
+									</a>
+								</li>
+								<li class="footer__menu-item">
+									<a class="footer__menu-link link-improve-qality" href="#image-generation">
+										Improve the quality
+									</a>
+								</li>
+								<li class="footer__menu-item">
+									<a class="footer__menu-link link-colorize-photo" href="#image-generation">
+										Colorize Photo
+									</a>
+								</li>
+								<li class="footer__menu-item">
+									<a class="footer__menu-link" href="#">
+										Removing recording
+									</a>
+								</li>
+							</div>
+							<div class="footer__menu-wrap">
+								<li class="footer__menu-item">
+									<a class="footer__menu-link" href="#">
+										Text dubbing
+									</a>
+								</li>
+								<li class="footer__menu-item">
+									<a class="footer__menu-link" href="#">
+										Music by text description
+									</a>
+								</li>
+								<li class="footer__menu-item">
+									<a class="footer__menu-link" href="#">
+										Audio to text
+									</a>
+								</li>
+								<li class="footer__menu-item">
+									<a class="footer__menu-link" href="#">
+										Removing the background of a video
+									</a>
+								</li>
+								<li class="footer__menu-item">
+									<a class="footer__menu-link" href="#">
+										The text in the video
+									</a>
+								</li>
+								<li class="footer__menu-item">
+									<a class="footer__menu-link" href="#">
+										The image in the video
+									</a>
+								</li>
+								<li class="footer__menu-item">
+									<a class="footer__menu-link" href="#">
+										Video to text
+									</a>
+								</li>
+							</div>
+						</div>
+					</ul>
+					<ul class="footer__menu-list">
+						<h3 class="footer__menu-title">
+							Products
+						</h3>
+						<li class="footer__menu-item">
+							<a class="footer__menu-link" href="#">
+								Neuron
+							</a>
+						</li>
+						<li class="footer__menu-item">
+							<a class="footer__menu-link" href="#">
+								SMM manager
+							</a>
+						</li>
+					</ul>
+					<ul class="footer__menu-list">
+						<h3 class="footer__menu-title">
+							Community
+						</h3>
+						<li class="footer__menu-item">
+							<a class="footer__menu-link" href="#">
+								Telegram
+							</a>
+						</li>
+						<li class="footer__menu-item">
+							<a class="footer__menu-link" href="#">
+								Instagram
+							</a>
+						</li>
+						<li class="footer__menu-item">
+							<a class="footer__menu-link" href="#">
+								LN
+							</a>
+						</li>
+					</ul>
+					<ul class="footer__menu-list">
+						<h3 class="footer__menu-title">
+							About us
+						</h3>
+						<li class="footer__menu-item">
+							<a class="footer__menu-link" href="#">
+								Neuron Inc
+							</a>
+						</li>
+						<li class="footer__menu-item">
+							<a class="footer__menu-link" href="#">
+								Contacts
+							</a>
+						</li>
+						<li class="footer__menu-item">
+							<a class="footer__menu-link" href="#">
+								FAQ
+							</a>
+						</li>
+					</ul>
+					<ul class="footer__menu-list">
+						<h3 class="footer__menu-title">
+							API
+						</h3>
+						<li class="footer__menu-item">
+							<a class="footer__menu-link" href="#">
+								API documentation
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div class="footer__bottom">
+					<ul class="footer__socials">
+						<li class="footer__socials-item">
+							<a href="#">
+								<img src="./img/twitter.svg" alt="twitter">
+							</a>
+						</li>
+						<li class="footer__socials-item">
+							<a href="#">
+								<img src="./img/linkedin.svg" alt="linkedin">
+							</a>
+						</li>
+						<li class="footer__socials-item">
+							<a href="#">
+								<img src="./img/facebook.svg" alt="facebook">
+							</a>
+						</li>
+					</ul>
+					<p class="footer__copy">
+						© 2023 Neuron Inc., All rights reserved
+					</p>
+					<a class="footer__privacy" href="#">
+						Privacy policy
+					</a>
+				</div>
+			</div>
+		</footer>
+	</div>
+
+
+
+
+	<script>
+		document.querySelector('.myproject__collaborators-tabs-manage').addEventListener('click', function () {
+			document.querySelector('.myproject__collaborators-manage').classList.add('active');
+			document.querySelector('.myproject__collaborators-invite').classList.remove('active');
+			document.querySelector('.myproject__collaborators-tabs-invite').classList.remove('active');
+			document.querySelector('.myproject__collaborators-tabs-manage').classList.add('active');
+
+		})
+		document.querySelector('.myproject__collaborators-tabs-invite').addEventListener('click', function () {
+			document.querySelector('.myproject__collaborators-manage').classList.remove('active');
+			document.querySelector('.myproject__collaborators-invite').classList.add('active');
+			document.querySelector('.myproject__collaborators-tabs-invite').classList.add('active');
+			document.querySelector('.myproject__collaborators-tabs-manage').classList.remove('active');
+
+		})
+	</script>
+
+	<script src="./js/scripts.js" type="module"></script>
+	<script>
+
+	</script>
+	<!-- tagify -->
+	<script src="./js/tagify.js"></script>
+	<link href="./css/tagify.css" rel="stylesheet" type="text/css" />
+
+	<!--sl--scrollable-->
+	<script src="./js/sl.scrollable.js"></script>
+
+	<script rel="preconnect" src="https://cdn.tailwindcss.com"></script>
+</body>
+
+</html>
